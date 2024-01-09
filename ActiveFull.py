@@ -120,6 +120,7 @@ def ModelCall(x,iL,iM):
     return observed.mean
 
 # Priorities
+# TODO fix train_test_split
 # TODO fix make uncertainty not constant - understand what is happening
     # probably because wavelength too sparse and jacking up all uncertainty idk
 # TODO calibration layer with new dataset
